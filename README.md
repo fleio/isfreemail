@@ -16,6 +16,23 @@ https://github.com/fleio/isfreemail.
 Keep mail server list ordered alphabetically. 
 
 
+## Run unit tests
+
+
+```
+$ cd project_dir
+$ ls
+isfreemail  LICENSE  README.md  setup.py
+$ python -m unittest discover
+...........
+----------------------------------------------------------------------
+Ran 11 tests in 0.000s
+
+OK
+```
+
+
 ## License information
 
 isfreemail is licensed under BSD License. See the "LICENSE" file for more information.
+
